@@ -32,8 +32,8 @@ var CURRENT_CACHES = {
 self.addEventListener('install', function(event) {
   var urlsToPrefetch = [
     './',
-    'index.js',
-    '../../styles/main.css',
+    '/index.html',
+    '/index.js',
     'static/teste.png',
     // The videos are stored remotely with CORS enabled.
     'https://storage.googleapis.com/media-session/sample.webm',
